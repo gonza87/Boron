@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Open Sans", sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    padding-top: 50px;
+    height: 150vh;
+}
+.logo {
+    max-width: 15vw;
+
+}
+
+header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+   
+}
+.navList {
+    
+    list-style: none;
+    gap: 51rem;
+    width: 100%;
+    
+}
+
+.navList li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navList li{
+    margin-bottom: 30px;
+ 
+}
+.btnMenu{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border-radius: 50px; 
+    border-style: none;
+}
+.btnMenu img{
+    width: 15px;
+}
+
+.btnCerrarMenu{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    color: #FFFFFF;
+    background-color: black;
+    border-style: none;
+}
+.btnCerrarMenu img{
+    width: 15px; 
+}
+
+
+
+.nav {
+    font-size: 1.5rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    position: absolute;
+    width: 350px;
+    top: 2rem;
+    right: 2rem;
+    visibility: hidden;  
+  
+    padding: 4rem;
+
+}
+.contenedorBoton{
+    align-self: self-end;
+    margin-bottom: 20px;
+}
+
+.contLupa{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+    color: #FFFFFF;
+}
+
+.contLupa p{
+    align-self: flex-end;
+}
+
+.showNav {
+    visibility: visible;
+}
+
+main {}
+
+.title {
+    margin-top: 50px;
+    width: 100%;
+
+    
+    margin: 0;
+    
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 14vw;
+   
+    line-height: 0.8;
+   
+}
+
+section {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero p {
+    font-size: 4vw;
+    font-weight: 500;
+}
