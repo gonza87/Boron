@@ -1,4 +1,6 @@
-const button = document.querySelector("#menu");
+const btnMenu = document.querySelector("#menu");
+const btnCerrarMenu = document.querySelector("#btnCerrarMenu");
 const nav = document.querySelector("#nav");
 
-button.addEventListener("click", ()=>{nav.classList.add("showNav")})
+btnMenu.addEventListener("click", ()=>{nav.classList.add("showNav")})
+btnCerrarMenu.addEventListener("click", ()=>{nav.classList.remove("showNav")})

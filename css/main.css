@@ -57,6 +57,8 @@ header {
     padding: 10px 15px;
     border-radius: 50px; 
     border-style: none;
+    cursor: pointer;
+    
 }
 .btnMenu img{
     width: 15px;
@@ -69,6 +71,7 @@ header {
     color: #FFFFFF;
     background-color: black;
     border-style: none;
+    cursor: pointer;
 }
 .btnCerrarMenu img{
     width: 15px; 
@@ -312,16 +315,67 @@ position: relative;
     flex-direction: column;
     padding: 50px;
     justify-content: space-between;
+    position: relative;
+    width: 200px;
+    height: 400px;
+    
+    overflow: hidden;
+}
+.card2{
+    background-color: #77D7DB;
+}
+.card3{
+    background-color: #44D19D;
+}
+.card4{
+    background-color: #FEDA3C;
 }
 .encabezadoCard{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2; 
+    position: relative;
 }
 .titleCard{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
+.descripcionCard{
+    font-size: 1.2rem;
+    font-weight: 600;
+    min-height: 90px;
+}
+
+
+
+  .imagWebinar {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 3; 
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 50%); 
+    
+  }
+  
+  .imagWebinar img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    
+  }
+  
+  .card:hover .imagWebinar {
+    display: block; 
+  }
+
+
+
+/****************** Container general *********************************/
 .container {
     width: 100%;
     max-width: 1400px; 
@@ -334,7 +388,7 @@ position: relative;
 
 
 
-
+/******************** Media Queries *******************************/
 
 
 @media (max-width: 1200px) {
@@ -347,12 +401,46 @@ position: relative;
     .container {
         max-width: 750px;
     }
+
+    .enfoque div {
+       
+        font-size: 1rem;
+        
+    }
+    .tweets{
+        flex-direction: column;
+        gap: 0;
+    }
+    .contenedorCard{
+        flex-wrap: wrap;
+    }
+    .card{
+        min-width: 49%;
+    }
+    .repositorio{
+        padding: 0;
+    }
 }
 
 @media (max-width: 768px) {
     .container {
         max-width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .contTextTweet{
+        padding: 30px;
+    } 
+    .contRepositorio{
+        flex-direction: column;
+    }
+    .titleRepositorio{
+        font-size: 3rem;
+    }
+    .repositorio{
+        padding: 0;
+    }
+    .nav{
+        width: 100%;
     }
 }
