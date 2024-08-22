@@ -9,12 +9,10 @@
 
 }
 
-
 body{
-    padding-top: 50px;
-    height: 300vh;
-    
+    margin-top: 2rem;
 }
+
 
 .logo {
     max-width: 15vw;
@@ -29,6 +27,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
    
    
 }
@@ -343,9 +342,7 @@ position: relative;
 
 
 /****************Section Novedades*************************/
-.contNovedades{
-    margin-bottom: 100px;
-}
+
 .textNovedades{
     text-align: center;
     font-size: 8rem;
@@ -433,7 +430,11 @@ position: relative;
    
 }
 
-
+/*************************footer*****************************************/
+.footer{
+    height: 300px;
+    background-color: #000000;
+}
 
 /******************** Media Queries *******************************/
 
