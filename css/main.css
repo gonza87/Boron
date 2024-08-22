@@ -176,6 +176,7 @@ header {
 }
 .enfoque img{
     min-width: 50%;
+    object-fit: cover;
 }
 
 /***********Section Tweets*****************/
@@ -191,6 +192,7 @@ header {
 }
 .imagenTweet{
     min-width: 50%;
+    object-fit: cover;
 }
 .contTextTweet{
     display: flex;
@@ -216,6 +218,9 @@ header {
     margin-top: 50px;
     max-width: 50px;
 }
+.horas{
+    margin-top: 50px;
+}
 .textTwitt{
     font-size: 1.5rem;
     font-weight: 600;
@@ -230,11 +235,35 @@ header {
     
 }
 .contFlechas{
-   
+   margin-top: 80px;
     display: flex;
     justify-content:space-between;
 }
 
+/**********Section repositorio******************/
+.repositorio{
+    margin-top: 20px;
+    padding: 100px;
+}
+.contRepositorio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.titleRepositorio{
+    font-size: 4rem;
+}
+
+.contRepo{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.titleRepo {
+    font-size: 3rem;
+}
 .container {
     width: 100%;
     max-width: 1400px; 
@@ -244,6 +273,8 @@ header {
     box-sizing: border-box; 
    
 }
+
+
 
 
 @media (max-width: 1200px) {
