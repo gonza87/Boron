@@ -260,10 +260,40 @@ header {
     display: flex;
     justify-content: space-between;
 align-items: center;
+position: relative;
+
 }
 .titleRepo {
     font-size: 3rem;
 }
+
+
+
+
+
+
+.imgRepo {
+    opacity: 0; 
+    position: absolute;
+    width: 200px;
+    top: 0%;
+    right: 10%;
+    z-index: 10;
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.contRepo {
+    position: relative;
+}
+
+.contRepo:hover .imgRepo {
+    opacity: 1; 
+}
+
+
+
+
+
 .container {
     width: 100%;
     max-width: 1400px; 
