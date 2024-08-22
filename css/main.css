@@ -129,6 +129,7 @@ header {
 .contRedes{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .showNav {
     visibility: visible;
