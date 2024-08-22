@@ -111,6 +111,9 @@ header {
     align-self: flex-end;
 }
 
+.textNewsLeter{
+    color: #FFFFFF;
+}
 .showNav {
     visibility: visible;
 }
@@ -154,11 +157,11 @@ header {
     font-size: 3.8vw;
     font-weight: 600;
 }
-
+/**************Section aboout*************************/
 .about{
     background-color: #FF5E43;
-    font-size: 3.8vw;
-    padding: 100px;
+    font-size: 3.4vw;
+    padding: 80px;
     font-weight: 400;
     height: auto;
 }
