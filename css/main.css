@@ -86,7 +86,7 @@ header {
     flex-direction: column;
     align-items: self-start;
     position: absolute;
-    width: 500px;
+    width: 600px;
     top: 0;
     right: 0;
     visibility: hidden;  
@@ -111,8 +111,24 @@ header {
     align-self: flex-end;
 }
 
-.textNewsLeter{
-    color: #FFFFFF;
+.contNewsLeter{
+    width: 60%;
+    padding: 10px;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 800;
+    background-color: #77D7DB;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flechaNewsleter{
+    width: 20px;
+}
+.contRedes{
+    display: flex;
+    align-items: center;
 }
 .showNav {
     visibility: visible;
