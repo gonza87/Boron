@@ -118,7 +118,7 @@ header {
     visibility: visible;
 }
 
-
+/**************Section hero******************************/
 .title {
     max-width: 100%; 
     overflow: hidden; 
@@ -154,8 +154,17 @@ header {
 }
 
 .hero p {
-    font-size: 3.8vw;
+    font-size: 3.7vw;
     font-weight: 600;
+}
+
+.marcador{
+  background-image: linear-gradient(120deg, #77D7DB 0%, #77D7DB 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 80%; 
+  background-position: 0 80%; 
+  padding: 0 5px;
+  font-weight: bold;
 }
 /**************Section aboout*************************/
 .about{
