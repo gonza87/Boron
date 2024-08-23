@@ -398,6 +398,7 @@ position: relative;
     font-size: 1.2rem;
     font-weight: 600;
     min-height: 150px;
+    overflow: auto;
 }
 
 
@@ -466,12 +467,13 @@ position: relative;
 }
 
 .contFooterIzq{
-    flex: 3;
+    flex: 2;
 }
 .contFooterDer{
 
    flex: 1;
     display: flex;
+    flex-direction: column;
     justify-content: end;
     align-items: center;
     height: auto;
@@ -520,6 +522,13 @@ position: relative;
     font-size: 0.8rem;
     color: #5b5e5e;
     
+}
+
+.conyoutube {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* .footer{
     height: 50vh;
@@ -714,6 +723,38 @@ position: relative;
 .descripcionCard {
     font-size: 1rem;
     min-height: 130px;
+}
+/**********Footer*****************/
+.footer {
+    padding: 15% 7%;
+}
+
+.contenedorFooter {
+    flex-direction: column;
+    height: auto;
+    align-items: start;
+}
+
+.contFooterDer {
+    order: 1;
+}
+
+.contFooterIzq {
+    order: 2;
+}
+
+.logoFooter {
+    width: 150px;
+}
+
+.contRedesFooter {
+    flex-direction: column;
+    align-items: unset;
+}
+
+.contFooterSuscribite {
+    width: 100%;
+    margin-bottom: 20px;
 }
     .nav{
         width: 100%;
