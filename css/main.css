@@ -221,7 +221,10 @@ header {
     min-width: 50%;
     padding: 0px 70px;
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 650;
+}
+.titleEnfoque{
+    font-size: 1rem;
 }
 .enfoque img{
     min-width: 50%;
@@ -265,7 +268,7 @@ header {
 
 .logoTweet{
     margin-top: 50px;
-    max-width: 50px;
+    max-width: 40px;
 }
 .horas{
     margin-top: 50px;
@@ -303,6 +306,9 @@ header {
 .titleRepositorio{
     font-size: 4rem;
 }
+.textRepo{
+    font-weight: 700;
+}
 
 .contRepo{
     padding: 20px 20px;
@@ -313,7 +319,8 @@ position: relative;
 
 }
 .titleRepo {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 
@@ -345,7 +352,8 @@ position: relative;
 
 .textNovedades{
     text-align: center;
-    font-size: 8rem;
+    font-size: 7.5vw;
+    margin-bottom: 20px;
 }
 .contenedorCard{
     display: flex;
@@ -354,14 +362,14 @@ position: relative;
 .card{
     min-width: 25%;
     background-color: #40B5E0;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 40px 50px;
     justify-content: space-between;
     position: relative;
     width: 200px;
-    height: 400px;
+    
     
     overflow: hidden;
 }
@@ -382,13 +390,13 @@ position: relative;
     position: relative;
 }
 .titleCard{
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 800;
 }
 .descripcionCard{
     font-size: 1.2rem;
     font-weight: 600;
-    min-height: 90px;
+    min-height: 150px;
 }
 
 
