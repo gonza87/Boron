@@ -670,7 +670,11 @@ position: relative;
 .flecha {
     width: 30px;
 }
+.imagenTweet {
+    order: 2;
+}
     .contTextTweet{
+        order: 1;
         padding: 30px;
     } 
 /********Repositorio*************/
@@ -685,7 +689,13 @@ position: relative;
             font-size: 1.5rem;
         }
     .repositorio{
-        padding: 0px 30px;
+        padding: 20px 30px;
+        }
+        
+        .imgRepo {
+            width: 150px;
+            top: -20%;
+            right: 20%;
     }
     .nav{
         width: 100%;
