@@ -11,6 +11,7 @@
 
 body{
     margin-top: 2rem;
+    
 }
 
 
@@ -435,7 +436,7 @@ position: relative;
     padding-left: 15px; 
     padding-right: 15px; 
     box-sizing: border-box; 
-   
+   background-color: #FFFFFF;
 }
 
 /*************************footer*****************************************/
