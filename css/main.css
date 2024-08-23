@@ -17,7 +17,7 @@ body{
 
 .logo {
     max-width: 15vw;
-
+    
 }
 
 header {
@@ -236,7 +236,7 @@ header {
 .tweets{
     
     display: flex;
-    gap: 1px;
+
 }
 .tweets div{
     
@@ -332,8 +332,8 @@ position: relative;
 .imgRepo {
     opacity: 0; 
     position: absolute;
-    width: 200px;
-    top: 0%;
+    width: 220px;
+        top: -25%;
     right: 10%;
     z-index: 10;
     transition: opacity 0.3s ease-in-out; 
@@ -436,7 +436,8 @@ position: relative;
     padding-left: 15px; 
     padding-right: 15px; 
     box-sizing: border-box; 
-   background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    v
 }
 
 /*************************footer*****************************************/
@@ -612,6 +613,19 @@ position: relative;
         padding-left: 0px;
         padding-right: 0px;
     }
+/**Header***/
+.title {
+    font-size: 14vw;
+}
+
+/***Hero***/
+.hero {
+    padding: 20px;
+}
+
+.hero p {
+    font-size: 6.1vw;
+}
     .contTextTweet{
         padding: 30px;
     } 
