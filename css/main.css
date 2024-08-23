@@ -697,6 +697,24 @@ position: relative;
             top: -20%;
             right: 20%;
     }
+/*********Novedades**************/
+.card {
+    padding: 30px 20px;
+    height: 350px;
+}
+
+.imgMas {
+    width: 15px;
+}
+
+.titleCard {
+    font-size: 0.8rem;
+}
+
+.descripcionCard {
+    font-size: 1rem;
+    min-height: 130px;
+}
     .nav{
         width: 100%;
     }
