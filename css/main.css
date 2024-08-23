@@ -655,17 +655,37 @@ position: relative;
     margin-top: 10px;
     font-size: 2.4rem;
 }
+.horas {
+    margin-top: 15px;
+}
+
+.textTwitt {
+    font-size: 1.2rem;
+}
+
+.contFlechas {
+    margin-top: 50px;
+}
+
+.flecha {
+    width: 30px;
+}
     .contTextTweet{
         padding: 30px;
     } 
+/********Repositorio*************/
     .contRepositorio{
         flex-direction: column;
     }
+
     .titleRepositorio{
         font-size: 3rem;
     }
+        .titleRepo {
+            font-size: 1.5rem;
+        }
     .repositorio{
-        padding: 0;
+        padding: 0px 30px;
     }
     .nav{
         width: 100%;
