@@ -360,7 +360,7 @@ position: relative;
    gap: 1px;
 }
 .card{
-    min-width: 25%;
+    flex: 1;
     background-color: #40B5E0;
     height: 450px;
     display: flex;
@@ -440,16 +440,16 @@ position: relative;
 
 /*************************footer*****************************************/
 .footer{
-    height: 400px;
+    height: 50vh;
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 150px;
+    padding: 1% 10%;
 }
 .contFooterIzq{
-    min-width: 60%;
+    min-width: 80%;
     
 }
 .logoFooter{
@@ -464,7 +464,7 @@ position: relative;
 }
 .contFooterSuscribite{
    
-    width: 50%;
+    width: 40%;
     padding: 10px;
     color: #000000;
     font-size: 0.8rem;
@@ -480,8 +480,16 @@ position: relative;
     font-weight: 600;
 }
 .contFooterDer{
+    min-width: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+}
+
+.contFooterDer a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 /******************** Media Queries *******************************/
 
