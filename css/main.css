@@ -434,8 +434,36 @@ position: relative;
 .footer{
     height: 300px;
     background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
 }
-
+.contFooterIzq{
+    min-width: 60%;
+    
+}
+.logoFooter{
+    
+    margin-bottom: 20px;
+}
+.contFooterSuscribite{
+    width: 40%;
+    padding: 10px;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 800;
+    background-color: #77D7DB;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contFooterDer{
+    display: flex;
+    flex-direction: column;
+}
 /******************** Media Queries *******************************/
 
 
