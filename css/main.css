@@ -439,7 +439,87 @@ position: relative;
 }
 
 /*************************footer*****************************************/
+
 .footer{
+    
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+.logoFooter{
+    width: 200px;
+}
+
+.contenedorFooter{
+    margin-top: 20px;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contFooterIzq{
+    flex: 3;
+}
+.contFooterDer{
+
+   flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: auto;
+}
+.contLinkDerecha{
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+.contFooterDer a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contFooterSuscribite{
+   
+    width: 40%;
+    padding: 10px;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 800;
+    background-color: #77D7DB;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contRedesFooter{
+    margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .textFooterNovedades{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contDerechos{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #5b5e5e;
+    
+}
+/* .footer{
     height: 50vh;
     background-color: #000000;
     color: #FFFFFF;
@@ -490,7 +570,7 @@ position: relative;
 .contFooterDer a{
     text-decoration: none;
     color: #FFFFFF;
-}
+} */
 /******************** Media Queries *******************************/
 
 
