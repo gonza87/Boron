@@ -20,7 +20,7 @@ body{
     
 }
 
-header {
+.header {
     position: sticky;
     top: 5px; 
     left: 0; 
@@ -614,8 +614,12 @@ position: relative;
         padding-right: 0px;
     }
 /**Header***/
+
 .title {
     font-size: 14vw;
+}
+.header {
+    padding: 0px 10px;
 }
 
 /***Hero***/
@@ -625,6 +629,31 @@ position: relative;
 
 .hero p {
     font-size: 6.1vw;
+}
+/***About***/
+.about {
+    font-size: 6vw;
+    padding: 50px;
+}
+
+/*****Enfoque****/
+.enfoque {
+    flex-direction: column;
+}
+
+.enfoque div {
+    min-height: 450px;
+}
+
+/*****tweets*******/
+.logoTweet {
+    margin-top: 20px;
+    max-width: 25px;
+}
+
+.h2Boronstudio {
+    margin-top: 10px;
+    font-size: 2.4rem;
 }
     .contTextTweet{
         padding: 30px;
