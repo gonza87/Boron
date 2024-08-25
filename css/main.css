@@ -713,6 +713,17 @@ body{
         width: 100%;
         margin-bottom: 20px;
     }
+    .contDerechos{
+        flex-direction: column;
+    }
+    .contDerechos p:first-child {
+        order: 2;
+        
+    }
+    .contDerechos p:last-child {
+        order: 1;
+        font-size: 0.9rem;
+    }
     /*********************************************************************************************/
 
     /*** Nav ***/
