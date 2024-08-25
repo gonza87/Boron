@@ -451,7 +451,7 @@ body{
     display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
+    align-items: end;
 }
 
 .contFooterIzq{
@@ -468,6 +468,10 @@ body{
 }
 
 .contLinkDerecha{    
+    display: flex;
+    flex-direction: column;
+}
+.firstLinks, .secondLinks{
     display: flex;
     flex-direction: column;
 }
@@ -724,6 +728,13 @@ body{
         order: 1;
         font-size: 0.9rem;
         align-self: center;
+    }
+    .contLinkDerecha{    
+       
+        flex-direction: row;
+    }
+    .secondLinks{
+        margin-left: 30px;
     }
     /*********************************************************************************************/
 
