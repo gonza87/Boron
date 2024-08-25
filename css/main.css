@@ -1,3 +1,4 @@
+/*** Estilos generales ***/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
@@ -6,15 +7,14 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
-
 }
 
 body{
-    margin-top: 2rem;
-    
+    margin-top: 2rem;    
 }
+/**************************************************************************************************************/
 
-
+/*** header ***/
 .logo {
     max-width: 15vw;
     
@@ -28,26 +28,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
-   
-   
+    z-index: 100;   
 }
-.navList {
-    
+
+.navList {    
     list-style: none;
     gap: 51rem;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .navList li a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .navList li{
     margin-bottom: 30px;
  
 }
+
 .btnMenu{
     display: flex;
     align-items: center;
@@ -57,9 +56,9 @@ body{
     padding: 10px 15px;
     border-radius: 50px; 
     border-style: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
+
 .btnMenu img{
     width: 15px;
 }
@@ -73,11 +72,10 @@ body{
     border-style: none;
     cursor: pointer;
 }
+
 .btnCerrarMenu img{
     width: 15px; 
 }
-
-
 
 .nav {
     font-size: 1.5rem;
@@ -90,10 +88,9 @@ body{
     top: 0;
     right: 0;
     visibility: hidden;  
-  
     padding: 4rem;
-
 }
+
 .contenedorBoton{
     align-self: self-end;
     margin-bottom: 20px;
@@ -122,17 +119,21 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .flechaNewsleter{
     width: 20px;
 }
+
 .contRedes{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .showNav {
     visibility: visible;
 }
+/*************************************************************************************************************/
 
 /**************Section hero******************************/
 .title {
