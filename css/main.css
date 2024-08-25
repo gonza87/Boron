@@ -723,6 +723,7 @@ body{
     .contDerechos p:last-child {
         order: 1;
         font-size: 0.9rem;
+        align-self: center;
     }
     /*********************************************************************************************/
 
