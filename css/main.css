@@ -1,4 +1,3 @@
-/*** Estilos generales ***/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
@@ -6,17 +5,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+
 }
 
 body{
     margin-top: 2rem;
+    
 }
 
-/**************************************************************************/
 
-/*** Header ***/
 .logo {
     max-width: 15vw;
+    
 }
 
 .header {
@@ -27,24 +28,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;   
+    z-index: 100;
+   
+   
 }
-
-.navList {    
+.navList {
+    
     list-style: none;
     gap: 51rem;
-    width: 100%;    
+    width: 100%;
+    
 }
 
 .navList li a{
     text-decoration: none;
     color: #FFFFFF;
 }
-
 .navList li{
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+ 
 }
-
 .btnMenu{
     display: flex;
     align-items: center;
@@ -54,9 +57,9 @@ body{
     padding: 10px 15px;
     border-radius: 50px; 
     border-style: none;
-    cursor: pointer;    
+    cursor: pointer;
+    
 }
-
 .btnMenu img{
     width: 15px;
 }
@@ -70,10 +73,11 @@ body{
     border-style: none;
     cursor: pointer;
 }
-
 .btnCerrarMenu img{
     width: 15px; 
 }
+
+
 
 .nav {
     font-size: 1.5rem;
@@ -85,10 +89,11 @@ body{
     width: 600px;
     top: 0;
     right: 0;
-    visibility: hidden;    
+    visibility: hidden;  
+  
     padding: 4rem;
-}
 
+}
 .contenedorBoton{
     align-self: self-end;
     margin-bottom: 20px;
@@ -97,7 +102,7 @@ body{
 .contLupa{
     display: flex;
     justify-content:space-between;
-    align-items: center;  
+    align-items: center;
     color: #FFFFFF;
 }
 
@@ -117,23 +122,19 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 .flechaNewsleter{
     width: 20px;
 }
-
 .contRedes{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .showNav {
     visibility: visible;
 }
-/**************************************************************************************************/
 
-/*** Section hero ***/
+/**************Section hero******************************/
 .title {
     max-width: 100%; 
     overflow: hidden; 
@@ -143,10 +144,29 @@ body{
     
 }
 
-.hero {   
+/* .title {
+    margin-top: 50px;
+    width: 100%;
+
+    
+    margin: 0;
+    
+}
+
+.title {
+    margin-top: 50px;
+    font-size: 14vw;
+   
+    line-height: 0.8;
+   
+} */
+
+.hero {
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .hero p {
@@ -166,9 +186,9 @@ body{
 .subrayado {
     display: inline-block;
     position: relative;
-}
+  }
   
-.subrayado::after {
+  .subrayado::after {
     content: '';
     position: absolute;
     left: 0;
@@ -179,10 +199,8 @@ body{
     opacity: 0.8; 
     transform: rotate(-1deg);
     border-radius: 2px; 
-}
-/************************************************************************************************/
-
-/*** Section aboout ***/
+  }
+/**************Section aboout*************************/
 .about{
     background-color: #FF5E43;
     font-size: 3.4vw;
@@ -190,8 +208,6 @@ body{
     font-weight: 400;
     height: auto;
 }
-/*********************************************************************************************/
-
 /**********Section Enfoque*****************/
 
 .enfoque{
@@ -219,7 +235,7 @@ body{
 .tweets{
     
     display: flex;
-    gap: 1px;
+
 }
 .tweets div{
     
@@ -315,8 +331,8 @@ position: relative;
 .imgRepo {
     opacity: 0; 
     position: absolute;
-    width: 200px;
-    top: 0%;
+    width: 220px;
+        top: -25%;
     right: 10%;
     z-index: 10;
     transition: opacity 0.3s ease-in-out; 
@@ -381,6 +397,7 @@ position: relative;
     font-size: 1.2rem;
     font-weight: 600;
     min-height: 150px;
+    overflow: auto;
 }
 
 
@@ -419,7 +436,8 @@ position: relative;
     padding-left: 15px; 
     padding-right: 15px; 
     box-sizing: border-box; 
-   
+    background-color: #FFFFFF;
+    v
 }
 
 /*************************footer*****************************************/
@@ -440,24 +458,35 @@ position: relative;
 }
 
 .contenedorFooter{
+    margin-top: 20px;
     display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .contFooterIzq{
-    flex: 3;
+    flex: 2;
 }
 .contFooterDer{
 
    flex: 1;
     display: flex;
-  
-    
-  
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
     height: auto;
 }
 .contLinkDerecha{
-    display: ;
+    
+    display: flex;
     flex-direction: column;
+  
+}
+.contFooterDer a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .contFooterSuscribite{
@@ -482,6 +511,23 @@ position: relative;
  .textFooterNovedades{
     font-size: 2rem;
     font-weight: 600;
+}
+
+.contDerechos{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #5b5e5e;
+    
+}
+
+.conyoutube {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 /* .footer{
     height: 50vh;
@@ -575,19 +621,160 @@ position: relative;
         padding-left: 0px;
         padding-right: 0px;
     }
-    .contTextTweet{
-        padding: 30px;
-    } 
-    .contRepositorio{
-        flex-direction: column;
-    }
-    .titleRepositorio{
-        font-size: 3rem;
-    }
-    .repositorio{
-        padding: 0;
-    }
-    .nav{
+        /**Header***/
+
+        .title {
+            font-size: 14vw;
+        }
+    
+        .header {
+            padding: 0px 10px;
+        }
+
+        /***Hero***/
+        .hero {
+            padding: 20px;
+        }
+
+        .hero p {
+            font-size: 6.1vw;
+        }
+    
+        /***About***/
+        .about {
+            font-size: 6vw;
+            padding: 50px;
+        }
+
+        /*****Enfoque****/
+        .enfoque {
+            flex-direction: column;
+        }
+
+        .enfoque div {
+            min-height: 450px;
+        }
+
+        /*****tweets*******/
+        .logoTweet {
+            margin-top: 20px;
+            max-width: 25px;
+        }
+
+        .h2Boronstudio {
+            margin-top: 10px;
+            font-size: 2.4rem;
+        }
+    
+        .horas {
+            margin-top: 15px;
+        }
+
+        .textTwitt {
+            font-size: 1.2rem;
+        }
+
+        .contFlechas {
+            margin-top: 50px;
+        }
+
+        .flecha {
+            width: 30px;
+        }
+    
+        .imagenTweet {
+            order: 2;
+        }
+    
+        .contTextTweet {
+            order: 1;
+            padding: 30px;
+        }
+    
+        /********Repositorio*************/
+        .contRepositorio {
+            flex-direction: column;
+        }
+
+                .titleRepositorio {
+                    font-size: 3rem;
+                }
+        
+                .titleRepo {
+                    font-size: 1.5rem;
+                }
+        
+                .repositorio {
+                    padding: 20px 30px;
+                }
+        
+                .imgRepo {
+                    width: 150px;
+                    top: -20%;
+                    right: 20%;
+                }
+        
+                /*********Novedades**************/
+                .card {
+                    padding: 30px 20px;
+                    height: 350px;
+                }
+
+        .imgMas {
+            width: 15px;
+        }
+
+        .titleCard {
+            font-size: 0.8rem;
+        }
+
+        .descripcionCard {
+            font-size: 1rem;
+            min-height: 130px;
+        }
+    
+        /**********Footer*****************/
+        .footer {
+            padding: 15% 7%;
+        }
+
+        .contenedorFooter {
+            flex-direction: column;
+            height: auto;
+            align-items: start;
+        }
+
+        .contFooterDer {
+            order: 1;
+        }
+
+        .contFooterIzq {
+            order: 2;
+        }
+
+        .logoFooter {
+            width: 150px;
+        }
+
+        .contRedesFooter {
+            flex-direction: column;
+            align-items: unset;
+        }
+
+        .contFooterSuscribite {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        /*********Nav**************/
+        .nav {
         width: 100%;
     }
+        .contLupa {
+            flex-direction: column;
+            align-items: start;
+        }
+    
+        .contLupa p {
+            align-self: self-start;
+        }
 }
