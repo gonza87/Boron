@@ -535,20 +535,22 @@ body{
     }
 
     .enfoque div {
-       
-        font-size: 1rem;
-        
+        font-size: 1rem; 
     }
+
     .tweets{
         flex-direction: column;
         gap: 0;
     }
+
     .contenedorCard{
         flex-wrap: wrap;
     }
+
     .card{
         min-width: 49%;
     }
+
     .repositorio{
         padding: 0;
     }
@@ -560,160 +562,171 @@ body{
         padding-left: 0px;
         padding-right: 0px;
     }
-        /**Header***/
+    /*** Header ***/
 
-        .title {
-            font-size: 14vw;
-        }
+    .title {
+        font-size: 14vw;
+    }
     
-        .header {
-            padding: 0px 10px;
-        }
+    .header {
+        padding: 0px 10px;
+    }
+    /***************************************************************/
 
-        /***Hero***/
-        .hero {
-            padding: 20px;
-        }
+    /*** Hero ***/
+    .hero {
+        padding: 20px;
+    }
 
-        .hero p {
-            font-size: 6.1vw;
-        }
+    .hero p {
+        font-size: 6.1vw;
+    }
+    /*****************************************************************/
+
+    /*** About ***/
+    .about {
+        font-size: 6vw;
+        padding: 50px;
+    }
+    /************************************************************************
+
+    /*** Enfoque ***/
+    .enfoque {
+        flex-direction: column;
+    }
+
+    .enfoque div {
+        min-height: 450px;
+    }
+    /*************************************************************************/
+
+    /*** tweets ***/
+    .logoTweet {
+        margin-top: 20px;
+        max-width: 25px;
+    }
+
+    .h2Boronstudio {
+        margin-top: 10px;
+        font-size: 2.4rem;
+    }
     
-        /***About***/
-        .about {
-            font-size: 6vw;
-            padding: 50px;
-        }
+    .horas {
+        margin-top: 15px;
+    }
 
-        /*****Enfoque****/
-        .enfoque {
-            flex-direction: column;
-        }
+    .textTwitt {
+        font-size: 1.2rem;
+    }
 
-        .enfoque div {
-            min-height: 450px;
-        }
+    .contFlechas {
+        margin-top: 50px;
+    }
 
-        /*****tweets*******/
-        .logoTweet {
-            margin-top: 20px;
-            max-width: 25px;
-        }
-
-        .h2Boronstudio {
-            margin-top: 10px;
-            font-size: 2.4rem;
-        }
+    .flecha {
+        width: 30px;
+    }
     
-        .horas {
-            margin-top: 15px;
-        }
-
-        .textTwitt {
-            font-size: 1.2rem;
-        }
-
-        .contFlechas {
-            margin-top: 50px;
-        }
-
-        .flecha {
-            width: 30px;
-        }
+    .imagenTweet {
+        order: 2;
+    }
     
-        .imagenTweet {
-            order: 2;
-        }
-    
-        .contTextTweet {
-            order: 1;
-            padding: 30px;
-        }
-    
-        /********Repositorio*************/
-        .contRepositorio {
-            flex-direction: column;
-        }
+    .contTextTweet {
+        order: 1;
+        padding: 30px;
+    }
+    /*********************************************************************************/
 
-                .titleRepositorio {
-                    font-size: 3rem;
-                }
+    /*** Repositorio ***/
+    .contRepositorio {
+        flex-direction: column;
+    }
+
+    .titleRepositorio {
+        font-size: 3rem;
+    }
         
-                .titleRepo {
-                    font-size: 1.5rem;
-                }
+    .titleRepo {
+        font-size: 1.5rem;
+    }
         
-                .repositorio {
-                    padding: 20px 30px;
-                }
+    .repositorio {
+        padding: 20px 30px;
+    }
         
-                .imgRepo {
-                    width: 150px;
-                    top: -20%;
-                    right: 20%;
-                }
-        
-                /*********Novedades**************/
-                .card {
-                    padding: 30px 20px;
-                    height: 350px;
-                }
+    .imgRepo {
+        width: 150px;
+        top: -20%;
+        right: 20%;
+    }
+    /***************************************************************************************/    
 
-        .imgMas {
-            width: 15px;
-        }
+    /*** Novedades***/
+    .card {
+        padding: 30px 20px;
+        height: 350px;
+    }
 
-        .titleCard {
-            font-size: 0.8rem;
-        }
+    .imgMas {
+        width: 15px;
+    }
 
-        .descripcionCard {
-            font-size: 1rem;
-            min-height: 130px;
-        }
+    .titleCard {
+        font-size: 0.8rem;
+    }
+
+    .descripcionCard {
+        font-size: 1rem;
+        min-height: 130px;
+    }
+    /*******************************************************************************************/
     
-        /**********Footer*****************/
-        .footer {
-            padding: 15% 7%;
-        }
+    /*** Footer ***/
+    .footer {
+        padding: 15% 7%;
+    }
 
-        .contenedorFooter {
-            flex-direction: column;
-            height: auto;
-            align-items: start;
-        }
+    .contenedorFooter {
+        flex-direction: column;
+        height: auto;
+        align-items: start;
+    }
 
-        .contFooterDer {
-            order: 1;
-        }
+    .contFooterDer {
+        order: 1;
+    }
 
-        .contFooterIzq {
-            order: 2;
-        }
+    .contFooterIzq {
+        order: 2;
+    }
 
-        .logoFooter {
-            width: 150px;
-        }
+    .logoFooter {
+        width: 150px;
+    }
 
-        .contRedesFooter {
-            flex-direction: column;
-            align-items: unset;
-        }
+    .contRedesFooter {
+        flex-direction: column;
+        align-items: unset;
+    }
 
-        .contFooterSuscribite {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        /*********Nav**************/
-        .nav {
+    .contFooterSuscribite {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    /*********************************************************************************************/
+
+    /*** Nav ***/
+    .nav {
         width: 100%;
     }
-        .contLupa {
-            flex-direction: column;
-            align-items: start;
-        }
     
-        .contLupa p {
-            align-self: self-start;
-        }
+    .contLupa {
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .contLupa p {
+        align-self: self-start;
+    }
+    /***********************************************************************************/
 }
