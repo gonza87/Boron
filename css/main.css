@@ -14,13 +14,12 @@ body{
 
 /**************************************************************************/
 
-
+/*** Header ***/
 .logo {
     max-width: 15vw;
-
 }
 
-header {
+.header {
     position: sticky;
     top: 5px; 
     left: 0; 
@@ -28,26 +27,24 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 100;
-   
-   
+    z-index: 100;   
 }
-.navList {
-    
+
+.navList {    
     list-style: none;
     gap: 51rem;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .navList li a{
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .navList li{
-    margin-bottom: 30px;
- 
+    margin-bottom: 30px; 
 }
+
 .btnMenu{
     display: flex;
     align-items: center;
@@ -57,9 +54,9 @@ header {
     padding: 10px 15px;
     border-radius: 50px; 
     border-style: none;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
+
 .btnMenu img{
     width: 15px;
 }
@@ -73,11 +70,10 @@ header {
     border-style: none;
     cursor: pointer;
 }
+
 .btnCerrarMenu img{
     width: 15px; 
 }
-
-
 
 .nav {
     font-size: 1.5rem;
@@ -89,11 +85,10 @@ header {
     width: 600px;
     top: 0;
     right: 0;
-    visibility: hidden;  
-  
+    visibility: hidden;    
     padding: 4rem;
-
 }
+
 .contenedorBoton{
     align-self: self-end;
     margin-bottom: 20px;
@@ -102,8 +97,7 @@ header {
 .contLupa{
     display: flex;
     justify-content:space-between;
-    align-items: center;
-  
+    align-items: center;  
     color: #FFFFFF;
 }
 
@@ -123,19 +117,23 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 .flechaNewsleter{
     width: 20px;
 }
+
 .contRedes{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .showNav {
     visibility: visible;
 }
+/**************************************************************************************************/
 
-/**************Section hero******************************/
+/*** Section hero ***/
 .title {
     max-width: 100%; 
     overflow: hidden; 
@@ -145,29 +143,10 @@ header {
     
 }
 
-/* .title {
-    margin-top: 50px;
-    width: 100%;
-
-    
-    margin: 0;
-    
-}
-
-.title {
-    margin-top: 50px;
-    font-size: 14vw;
-   
-    line-height: 0.8;
-   
-} */
-
-.hero {
-   
+.hero {   
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .hero p {
@@ -187,9 +166,9 @@ header {
 .subrayado {
     display: inline-block;
     position: relative;
-  }
+}
   
-  .subrayado::after {
+.subrayado::after {
     content: '';
     position: absolute;
     left: 0;
@@ -200,8 +179,10 @@ header {
     opacity: 0.8; 
     transform: rotate(-1deg);
     border-radius: 2px; 
-  }
-/**************Section aboout*************************/
+}
+/************************************************************************************************/
+
+/*** Section aboout ***/
 .about{
     background-color: #FF5E43;
     font-size: 3.4vw;
@@ -209,6 +190,8 @@ header {
     font-weight: 400;
     height: auto;
 }
+/*********************************************************************************************/
+
 /**********Section Enfoque*****************/
 
 .enfoque{
