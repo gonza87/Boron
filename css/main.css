@@ -141,33 +141,13 @@ body{
     overflow: hidden; 
     text-overflow: ellipsis; 
     white-space: nowrap; 
-    font-size: 11vw; 
-    
+    font-size: 11vw;   
 }
-
-/* .title {
-    margin-top: 50px;
-    width: 100%;
-
-    
-    margin: 0;
-    
-}
-
-.title {
-    margin-top: 50px;
-    font-size: 14vw;
-   
-    line-height: 0.8;
-   
-} */
 
 .hero {
-   
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .hero p {
@@ -187,9 +167,9 @@ body{
 .subrayado {
     display: inline-block;
     position: relative;
-  }
+}
   
-  .subrayado::after {
+.subrayado::after {
     content: '';
     position: absolute;
     left: 0;
@@ -200,8 +180,10 @@ body{
     opacity: 0.8; 
     transform: rotate(-1deg);
     border-radius: 2px; 
-  }
-/**************Section aboout*************************/
+}
+/*************************************************************************************/
+
+/*** Section aboout ***/
 .about{
     background-color: #FF5E43;
     font-size: 3.4vw;
@@ -209,11 +191,14 @@ body{
     font-weight: 400;
     height: auto;
 }
-/**********Section Enfoque*****************/
+/***************************************************************************************/
+
+/*** Section Enfoque ***/
 
 .enfoque{
     display: flex;
 }
+
 .enfoque div{
     display: flex;
     flex-direction: column;
@@ -224,44 +209,48 @@ body{
     font-size: 1.5em;
     font-weight: 650;
 }
+
 .titleEnfoque{
     font-size: 1rem;
 }
+
 .enfoque img{
     min-width: 50%;
     object-fit: cover;
 }
+/****************************************************************************************/
 
-/***********Section Tweets*****************/
+/*** Section Tweets ***/
 .tweets{
-    
     display: flex;
-
 }
-.tweets div{
-    
+
+.tweets div{    
     min-width: 50%;
     background-color: #1DA1F2;
 }
+
 .imagenTweet{
     min-width: 50%;
     object-fit: cover;
 }
+
 .contTextTweet{
     display: flex;
      justify-content: space-between; 
     flex-direction: column;
     padding: 80px;
-   
-
 }
+
 .h2Boronstudio{
     margin-top: 20px;
     font-size: 2.5rem;
 }
+
 .twitBoron{
     color: #FFFFFF;
 }
+
 .seguinos{
     font-weight: 1.5rem;
     font-weight: 700;
@@ -271,42 +260,48 @@ body{
     margin-top: 50px;
     max-width: 40px;
 }
+
 .horas{
     margin-top: 50px;
 }
+
 .textTwitt{
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 .textWhite{
     color: #FFFFFF;
 }
 
-.flecha{
-   
-    width: 40px;
-    
+.flecha{   
+    width: 40px;    
 }
+
 .contFlechas{
-   margin-top: 80px;
+    margin-top: 80px;
     display: flex;
     justify-content:space-between;
 }
+/*********************************************************************************************/
 
 /**********Section repositorio******************/
 .repositorio{
     margin-top: 20px;
     padding: 100px;
 }
+
 .contRepositorio{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
+
 .titleRepositorio{
     font-size: 4rem;
 }
+
 .textRepo{
     font-weight: 700;
 }
@@ -315,25 +310,20 @@ body{
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
-align-items: center;
-position: relative;
-
+    align-items: center;
+    position: relative;
 }
+
 .titleRepo {
     font-size: 2.5rem;
     font-weight: 600;
 }
 
-
-
-
-
-
 .imgRepo {
     opacity: 0; 
     position: absolute;
     width: 220px;
-        top: -25%;
+    top: -25%;
     right: 10%;
     z-index: 10;
     transition: opacity 0.3s ease-in-out; 
@@ -346,20 +336,21 @@ position: relative;
 .contRepo:hover .imgRepo {
     opacity: 1; 
 }
+/*************************************************************************************************************/
 
-
-
-/****************Section Novedades*************************/
+/*** Section Novedades ***/
 
 .textNovedades{
     text-align: center;
     font-size: 7.5vw;
     margin-bottom: 20px;
 }
+
 .contenedorCard{
     display: flex;
-   gap: 1px;
+    gap: 1px;
 }
+
 .card{
     flex: 1;
     background-color: #40B5E0;
@@ -369,20 +360,22 @@ position: relative;
     padding: 40px 50px;
     justify-content: space-between;
     position: relative;
-    width: 200px;
-    
-    
+    width: 200px;    
     overflow: hidden;
 }
+
 .card2{
     background-color: #77D7DB;
 }
+
 .card3{
     background-color: #44D19D;
 }
+
 .card4{
     background-color: #FEDA3C;
 }
+
 .encabezadoCard{
     display: flex;
     justify-content: space-between;
@@ -390,10 +383,12 @@ position: relative;
     z-index: 2; 
     position: relative;
 }
+
 .titleCard{
     font-size: 1rem;
     font-weight: 800;
 }
+
 .descripcionCard{
     font-size: 1.2rem;
     font-weight: 600;
@@ -401,10 +396,7 @@ position: relative;
     overflow: auto;
 }
 
-
-
-  .imagWebinar {
-    
+.imagWebinar {   
     position: absolute;
     top: 0;
     left: 0;
@@ -413,19 +405,18 @@ position: relative;
     display: none;
     z-index: 3; 
     clip-path: polygon(0 0, 100% 0, 100% 30%, 0 50%); 
-    
-  }
+}
   
-  .imagWebinar img {
+.imagWebinar img {
     width: 100%;
     height: 50%;
     object-fit: cover;
-    
-  }
+}
   
-  .card:hover .imagWebinar {
+.card:hover .imagWebinar {
     display: block; 
-  }
+}
+
 /**************************************************************************/
 
 
