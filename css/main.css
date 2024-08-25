@@ -1,3 +1,4 @@
+/*** Estilos generales ***/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
@@ -5,22 +6,21 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    scroll-behavior: smooth;
-
 }
 
 body{
     margin-top: 2rem;
-    
 }
+
+/**************************************************************************/
 
 
 .logo {
     max-width: 15vw;
-    
+
 }
 
-.header {
+header {
     position: sticky;
     top: 5px; 
     left: 0; 
@@ -103,6 +103,7 @@ body{
     display: flex;
     justify-content:space-between;
     align-items: center;
+  
     color: #FFFFFF;
 }
 
@@ -235,7 +236,7 @@ body{
 .tweets{
     
     display: flex;
-
+    gap: 1px;
 }
 .tweets div{
     
@@ -331,8 +332,8 @@ position: relative;
 .imgRepo {
     opacity: 0; 
     position: absolute;
-    width: 220px;
-        top: -25%;
+    width: 200px;
+    top: 0%;
     right: 10%;
     z-index: 10;
     transition: opacity 0.3s ease-in-out; 
@@ -397,7 +398,6 @@ position: relative;
     font-size: 1.2rem;
     font-weight: 600;
     min-height: 150px;
-    overflow: auto;
 }
 
 
@@ -436,8 +436,7 @@ position: relative;
     padding-left: 15px; 
     padding-right: 15px; 
     box-sizing: border-box; 
-    background-color: #FFFFFF;
-    v
+   
 }
 
 /*************************footer*****************************************/
@@ -458,35 +457,24 @@ position: relative;
 }
 
 .contenedorFooter{
-    margin-top: 20px;
     display: flex;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
 }
 
 .contFooterIzq{
-    flex: 2;
+    flex: 3;
 }
 .contFooterDer{
 
    flex: 1;
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
+  
+    
+  
     height: auto;
 }
 .contLinkDerecha{
-    
-    display: flex;
+    display: ;
     flex-direction: column;
-  
-}
-.contFooterDer a{
-    padding-top: 5px;
-    text-decoration: none;
-    color: #FFFFFF;
 }
 
 .contFooterSuscribite{
@@ -511,23 +499,6 @@ position: relative;
  .textFooterNovedades{
     font-size: 2rem;
     font-weight: 600;
-}
-
-.contDerechos{
-    margin-top: 20PX;
-    display: flex;
-    justify-content: space-between;
-    font-weight: 600;
-    font-size: 0.8rem;
-    color: #5b5e5e;
-    
-}
-
-.conyoutube {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 /* .footer{
     height: 50vh;
@@ -621,160 +592,19 @@ position: relative;
         padding-left: 0px;
         padding-right: 0px;
     }
-        /**Header***/
-
-        .title {
-            font-size: 14vw;
-        }
-    
-        .header {
-            padding: 0px 10px;
-        }
-
-        /***Hero***/
-        .hero {
-            padding: 20px;
-        }
-
-        .hero p {
-            font-size: 6.1vw;
-        }
-    
-        /***About***/
-        .about {
-            font-size: 6vw;
-            padding: 50px;
-        }
-
-        /*****Enfoque****/
-        .enfoque {
-            flex-direction: column;
-        }
-
-        .enfoque div {
-            min-height: 450px;
-        }
-
-        /*****tweets*******/
-        .logoTweet {
-            margin-top: 20px;
-            max-width: 25px;
-        }
-
-        .h2Boronstudio {
-            margin-top: 10px;
-            font-size: 2.4rem;
-        }
-    
-        .horas {
-            margin-top: 15px;
-        }
-
-        .textTwitt {
-            font-size: 1.2rem;
-        }
-
-        .contFlechas {
-            margin-top: 50px;
-        }
-
-        .flecha {
-            width: 30px;
-        }
-    
-        .imagenTweet {
-            order: 2;
-        }
-    
-        .contTextTweet {
-            order: 1;
-            padding: 30px;
-        }
-    
-        /********Repositorio*************/
-        .contRepositorio {
-            flex-direction: column;
-        }
-
-                .titleRepositorio {
-                    font-size: 3rem;
-                }
-        
-                .titleRepo {
-                    font-size: 1.5rem;
-                }
-        
-                .repositorio {
-                    padding: 20px 30px;
-                }
-        
-                .imgRepo {
-                    width: 150px;
-                    top: -20%;
-                    right: 20%;
-                }
-        
-                /*********Novedades**************/
-                .card {
-                    padding: 30px 20px;
-                    height: 350px;
-                }
-
-        .imgMas {
-            width: 15px;
-        }
-
-        .titleCard {
-            font-size: 0.8rem;
-        }
-
-        .descripcionCard {
-            font-size: 1rem;
-            min-height: 130px;
-        }
-    
-        /**********Footer*****************/
-        .footer {
-            padding: 15% 7%;
-        }
-
-        .contenedorFooter {
-            flex-direction: column;
-            height: auto;
-            align-items: start;
-        }
-
-        .contFooterDer {
-            order: 1;
-        }
-
-        .contFooterIzq {
-            order: 2;
-        }
-
-        .logoFooter {
-            width: 150px;
-        }
-
-        .contRedesFooter {
-            flex-direction: column;
-            align-items: unset;
-        }
-
-        .contFooterSuscribite {
-            width: 100%;
-            margin-bottom: 20px;
-        }
-        /*********Nav**************/
-        .nav {
+    .contTextTweet{
+        padding: 30px;
+    } 
+    .contRepositorio{
+        flex-direction: column;
+    }
+    .titleRepositorio{
+        font-size: 3rem;
+    }
+    .repositorio{
+        padding: 0;
+    }
+    .nav{
         width: 100%;
     }
-        .contLupa {
-            flex-direction: column;
-            align-items: start;
-        }
-    
-        .contLupa p {
-            align-self: self-start;
-        }
 }
