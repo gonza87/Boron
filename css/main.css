@@ -420,7 +420,7 @@ body{
 /**************************************************************************/
 
 
-/****************** Container general *********************************/
+/*** Container general ***/
 .container {
     width: 100%;
     max-width: 1400px; 
@@ -428,23 +428,20 @@ body{
     padding-left: 15px; 
     padding-right: 15px; 
     box-sizing: border-box; 
-    background-color: #FFFFFF;
-    v
+    background-color: #FFFFFF;    
 }
+/*****************************************************************************/
 
-/*************************footer*****************************************/
+/*** footer ***/
 
 .footer{
-    
     background-color: #000000;
     color: #FFFFFF;
     padding: 5% 10%;
     display: flex;
-    flex-direction: column;
-    
-    
-    
+    flex-direction: column;    
 }
+
 .logoFooter{
     width: 200px;
 }
@@ -460,29 +457,28 @@ body{
 .contFooterIzq{
     flex: 2;
 }
-.contFooterDer{
 
-   flex: 1;
+.contFooterDer{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
     height: auto;
 }
-.contLinkDerecha{
-    
+
+.contLinkDerecha{    
     display: flex;
     flex-direction: column;
-  
 }
+
 .contFooterDer a{
     padding-top: 5px;
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.contFooterSuscribite{
-   
+.contFooterSuscribite{   
     width: 40%;
     padding: 10px;
     color: #000000;
@@ -494,13 +490,15 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .contRedesFooter{
     margin-top: 20px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  }
- .textFooterNovedades{
+
+.textFooterNovedades{
     font-size: 2rem;
     font-weight: 600;
 }
@@ -511,8 +509,7 @@ body{
     justify-content: space-between;
     font-weight: 600;
     font-size: 0.8rem;
-    color: #5b5e5e;
-    
+    color: #5b5e5e; 
 }
 
 .conyoutube {
@@ -521,59 +518,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-/* .footer{
-    height: 50vh;
-    background-color: #000000;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1% 10%;
-}
-.contFooterIzq{
-    min-width: 80%;
-    
-}
-.logoFooter{
-    
-    margin-bottom: 70px;
-}
-.contRedesFooter{
-   margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.contFooterSuscribite{
-   
-    width: 40%;
-    padding: 10px;
-    color: #000000;
-    font-size: 0.8rem;
-    font-weight: 800;
-    background-color: #77D7DB;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.textFooterNovedades{
-    font-size: 2rem;
-    font-weight: 600;
-}
-.contFooterDer{
-    min-width: 20%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: auto;
-}
+/*************************************************************************************************************/
 
-.contFooterDer a{
-    text-decoration: none;
-    color: #FFFFFF;
-} */
-/******************** Media Queries *******************************/
+/*** Media Queries ***/
 
 
 @media (max-width: 1200px) {
