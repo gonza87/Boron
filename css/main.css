@@ -201,6 +201,70 @@ body{
 }
 /*************************************************************************************/
 
+/*** Section marquesina ***/
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .marquee-content-left {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-left 10s linear infinite;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .marquee-content-right {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-right 10s linear infinite;
+    margin-bottom: 10px;
+  }
+
+  .marquee-content-downleft{
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-left 15s linear infinite;
+  }
+  
+  .marquee-image {
+    vertical-align: middle;
+    height: 300px;
+    margin-right: 15px; 
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 7.5vw;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
+  @keyframes marquee-left {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes marquee-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+/****************************************************************************************/
+
 /*** Section aboout ***/
 .about{
     background-color: #FF5E43;
@@ -607,6 +671,12 @@ body{
     }
     /*****************************************************************/
 
+    /*** marquesina ***/
+    .marquee-image {
+        height: 150px;   
+    }
+    /************************************************************************/
+
     /*** About ***/
     .about {
         font-size: 6vw;
@@ -817,3 +887,4 @@ body{
     }
     /***********************************************************************************/
 }
+
