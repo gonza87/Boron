@@ -668,7 +668,7 @@ body{
     }
 
     .logoPalabra{
-        display: block;
+        display: inline-block;
         width: 150px;
     }
     /***************************************************************/
