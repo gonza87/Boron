@@ -447,6 +447,8 @@ body{
     position: relative;
     width: 200px;    
     overflow: hidden;
+    cursor: pointer;
+    
 }
 
 .card2{
