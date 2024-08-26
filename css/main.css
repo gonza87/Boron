@@ -15,9 +15,12 @@ body{
 /**************************************************************************************************************/
 
 /*** header ***/
-.logo {
+.logoLetra {
     max-width: 15vw;
     
+}
+.logoPalabra{
+    display: none;
 }
 
 .header {
@@ -657,7 +660,16 @@ body{
     }
     
     .header {
-        padding: 0px 10px;
+        padding: 0px 20px;
+    }
+
+    .logoLetra{
+        display: none;
+    }
+
+    .logoPalabra{
+        display: block;
+        width: 150px;
     }
     /***************************************************************/
 
